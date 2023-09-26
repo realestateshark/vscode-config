@@ -1,19 +1,25 @@
 // Place your key bindings in this file to override the defaults
 [
     // NAVIGATION
+    // Terminal
     {
-        "key": "ctrl+shift+k",
+        "key":     "ctrl+t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key":     "ctrl+t",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when":    "terminalFocus"
+    },
+    {
+        "key": "ctrl+k",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+j",
+        "key": "ctrl+j",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+t",
-        "command": "workbench.action.togglePanel"
     },
     {
         "key": "ctrl+shift+n",
