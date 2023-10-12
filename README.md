@@ -1,5 +1,5 @@
 # VSCode Config
 ## Setup
 ```sh
-git clone https://github.com/realestateshark/vscode-config.git ~/.config/Code/User
+git clone https://github.com/realestateshark/vscode-config-vim.git ~/.config/Code/User
 ```
